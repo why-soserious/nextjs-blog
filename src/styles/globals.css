@@ -96,8 +96,13 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #166aca;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fb610140;
 }
 
 @media (prefers-color-scheme: dark) {
